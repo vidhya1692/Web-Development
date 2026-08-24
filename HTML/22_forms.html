@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universal CodeBox - Registration Form</title>
+  </head>
+
+  <body bgcolor="lightblue">
+    <h1 align="center">
+      <ins><i>UNIVERSAL CODEBOX</i></ins>
+    </h1>
+
+    <hr />
+
+    <h2 align="center">STUDENT REGISTRATION FORM</h2>
+
+    <p align="center">
+      <b>Please fill in your details carefully.</b>
+    </p>
+
+    <form
+      action="mailto:vidyapandey6392@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
+      <table
+        border="2"
+        cellpadding="8"
+        cellspacing="5"
+        align="center"
+        bgcolor="white"
+      >
+        <tr bgcolor="darkblue">
+          <th colspan="2">
+            <font color="white" size="5"> Registration Details </font>
+          </th>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="fn"><b>First Name</b></label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="fname"
+              id="fn"
+              placeholder="Enter first name"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="ln"><b>Last Name</b></label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="lname"
+              id="ln"
+              placeholder="Enter last name"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="User_id"><b>User ID</b></label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="User_id"
+              id="User_id"
+              placeholder="eg. 2313740"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>Branch</b></td>
+          <td>
+            <label for="CSIOT">CSIOT</label>
+            <input type="checkbox" name="CSIOT" id="CSIOT" />
+
+            <br />
+
+            <label for="CSAIML">CSAIML</label>
+            <input type="checkbox" name="CSAIML" id="CSAIML" />
+
+            <br />
+
+            <label for="CSCYS">CSCYS</label>
+            <input type="checkbox" name="CSCYS" id="CSCYS" />
+
+            <br />
+
+            <label for="CSDS">CSDS</label>
+            <input type="checkbox" name="CSDS" id="CSDS" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>Section</b></td>
+          <td>
+            <label for="A">A</label>
+            <input type="radio" name="section" id="A" value="A" />
+
+            <label for="B">B</label>
+            <input type="radio" name="section" id="B" value="B" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="College_Name"><b>College Name</b></label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="College_Name"
+              id="College_Name"
+              placeholder="Enter college name"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="City"><b>City</b></label>
+          </td>
+          <td>
+            <input type="text" name="City" id="City" placeholder="Enter city" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="Country"><b>Country</b></label>
+          </td>
+          <td>
+            <input
+              type="text"
+              name="Country"
+              id="Country"
+              placeholder="Enter country"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="DOB"><b>Date of Birth</b></label>
+          </td>
+          <td>
+            <input type="date" name="DOB" id="DOB" />
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>Skills</b></td>
+          <td>
+            <label for="Fullstack">Full Stack Development</label>
+            <input type="checkbox" name="Fullstack" id="Fullstack" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="Email"><b>Email</b></label>
+          </td>
+          <td>
+            <input
+              type="email"
+              name="Email"
+              id="Email"
+              placeholder="Enter email"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><b>Subject</b></td>
+          <td>
+            <label for="Physics">Physics</label>
+            <input type="radio" name="Subject" id="Physics" value="Physics" />
+
+            <br />
+
+            <label for="Chemistry">Chemistry</label>
+            <input
+              type="radio"
+              name="Subject"
+              id="Chemistry"
+              value="Chemistry"
+            />
+
+            <br />
+
+            <label for="Maths">Maths</label>
+            <input type="radio" name="Subject" id="Maths" value="Maths" />
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <label for="Assignment"><b>Assignment</b></label>
+          </td>
+          <td>
+            <input type="file" name="Assignment" id="Assignment" />
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="2" align="center">
+            <input type="submit" value="SUBMIT" />
+
+            &nbsp;&nbsp;
+
+            <input type="reset" value="RESET" />
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <br />
+
+    <hr />
+
+    <p align="center">
+      <i>Thank you for registering with Universal CodeBox!</i>
+    </p>
+  </body>
+</html>
